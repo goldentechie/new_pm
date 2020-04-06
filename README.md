@@ -7,6 +7,14 @@ The all core devs meeting is a technical meeting intended to bring together vari
 
  №  | Date                             | Agenda        |Notes          | Recording            |
 --- | -------------------------------- | -------------- |-------------- | -------------------- |
+84 | Friday 3 April 2020, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/162) | [notes](All%20Core%20Devs%20Meetings/Meeting%2084.md) | [video](https://www.youtube.com/watch?v=JqxVvJBhTxo) |
+83 | Friday 20 March 2020, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/159) | [notes](All%20Core%20Devs%20Meetings/Meeting%2083.md) | [video](https://www.youtube.com/watch?v=vDGj660uZE0) |
+82 | Friday 6 March 2020, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/155) | [notes](All%20Core%20Devs%20Meetings/Meeting%2082.md) | [video](https://www.youtube.com/watch?v=kham8c0qhmw) |
+81 | Friday 21 February 2020, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/152) | [notes](All%20Core%20Devs%20Meetings/Meeting%2081.md) | [video](https://www.youtube.com/watch?v=zSRzlC_dCx8&feature=youtu.be) |
+80 | Friday, January 24, 2020 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/150) | [notes]() | [video](https://www.youtube.com/watch?v=535tJTI0c58&feature=youtu.be) |
+79 | Friday, January 24, 2020 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/148) | [notes](All%20Core%20Devs%20Meetings/Meeting%2079.md) | [video](https://www.youtube.com/watch?v=0-Vld7GTRhQ) |
+78 | Friday, January  10, 2020 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/147) | [notes]() | [video](https://www.youtube.com/watch?v=snEdgekxJto) |
+77 | Friday, December 13, 2019, 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/142) | [notes](All%20Core%20Devs%20Meetings/Meeting%2077.md) | [video](https://www.youtube.com/watch?v=HpoBvMylPfk) |
  76 | Friday, November 29, 2019 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/140) | [notes](All%20Core%20Devs%20Meetings/Meeting%2076.md) | [video](https://www.youtube.com/watch?v=BMMkxeH72U0) |
  75 | Friday, November 15, 2019 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/138) | [notes](All%20Core%20Devs%20Meetings/Meeting%2075.md) | [video](https://www.youtube.com/watch?v=3qZFiETlDtk) |
  74 | Friday, November 1, 2019 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/134) | [notes](All%20Core%20Devs%20Meetings/Meeting%2074.md) | [video](https://www.youtube.com/watch?v=aZ0S_oLSwhE) |
