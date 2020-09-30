@@ -298,7 +298,7 @@ Moved to EFI.
 ## Attendance
 
 - Alex Vlasov
-- Alexey Akhunov
+- Alexy Akhunov
 - Artem Vorotnikov
 - Daniel Ellison
 - David Mechler

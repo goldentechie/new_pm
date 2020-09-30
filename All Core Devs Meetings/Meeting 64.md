@@ -287,7 +287,7 @@ Thursday July 18, 2019 at 22:00 UTC
 * Alex Beregszaszi
 * Alex Gluchowski
 * Alex Vlasov
-* Alexey Akhunov
+* Alexy Akhunov
 * Brett Allsop
 * Brett Robertson
 * Danno Ferrin
