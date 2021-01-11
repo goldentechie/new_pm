@@ -8,13 +8,13 @@ Tasks that are normally part of the "AllCoreDevs process" are not listed. In oth
 
 ### Client Implementation Status 
 - [ ] **Geth**
-    - [WIP implementation led by Vulcanize](https://github.com/vulcanize/go-ethereum-EIP1559/tree/eip1559_rebase)
+    - [WIP implementation led by Vulcanize](https://github.com/vulcanize/go-ethereum/tree/1559_test)
 - [ ] **Besu**
     - [WIP implementation](https://github.com/hyperledger/besu/labels/EIP-1559)
 - [ ] **Nethermind** 
     - [WIP implementation](https://github.com/NethermindEth/nethermind/pull/2341)
-- [ ] **Open Ethereum**
-    - N/A
+- [ ] **Open Ethereum** 
+    - ⭐️ [Hiring an implementer](https://boards.greenhouse.io/gnosis/jobs/4978262002?t=addc4e802) ⭐️
 - [ ] **TurboGeth**
     - N/A 
 
@@ -24,6 +24,8 @@ Tasks that are normally part of the "AllCoreDevs process" are not listed. In oth
     - Discussed in the [AllCoreDevs call #77](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2077.md#eip-1559) and [#97](https://github.com/ethereum/pm/pull/214/files?short_path=4d89329#diff-4d893291250cf226c77e67ad708be6f2) EIP-1559's elastic block size effectively doubles the potential effect of a DoS attack on mainnet. Solutions to this are outside the scope of this EIP and include things like [snapshot sync](https://blog.ethereum.org/2020/07/17/ask-about-geth-snapshot-acceleration/) and [EIP-2929](https://eips.ethereum.org/EIPS/eip-2929). 
 - [ ] Transaction Pool Management
     - How transactions are replaced, evicted, sorted and gossiped under 1559 still needs to be formalized. [This document](https://hackmd.io/unbJUt-HQgStvwmpLPsXsQ) highlights various possible approaches.
+- [ ] Base Fee Update Rule optimizations
+    - As per Tim Roughgarden's [analysis of 1559](http://timroughgarden.org/papers/eip1559.pdf) (Section 1.2, bullet 9), the base fee update rule is somewhat arbitrary and would gain from a more formal evaluation by an expert with a background in control theory. 
 - [x] Transaction Encoding/Decoding
     - EIP-1559 transactions will be encoded using [EIP-2718](https://eips.ethereum.org/EIPS/eip-2718), by adding 1559-style transactions as a new type of transaction. 
 - [X] Legacy transaction management in transaction pool 
@@ -75,12 +77,14 @@ Tasks that are normally part of the "AllCoreDevs process" are not listed. In oth
 
 ### Theoretical Analysis 
 
-- [ ] Analysis of whether EIP-1559 is game-theoretically sound, and potential improvements
-    - [Blockchain Resource Pricing by Vitalik Buterin](https://github.com/ethereum/research/blob/master/papers/pricing/ethpricing.pdf) 
-    - [WIP by Tim Roughgarden](https://d24n.org/tim-roughgarden-will-work-on-eip-1559/)
+- [x] Analysis of whether EIP-1559 is game-theoretically sound, and potential improvements
+    - ["Transaction Fee Mechanism Design for the Ethereum Blockchain:
+An Economic Analysis of EIP-1559" by Tim Roughgarden](http://timroughgarden.org/papers/eip1559.pdf)
     - [EIP-1559 slides by Vitalik Buterin](https://vitalik.ca/files/misc_files/EIP_1559_Fee_Structure.pdf) 
-- [ ] Comparison of EIP-1559 with alternatives (e.g. [Escalator Fees](https://eips.ethereum.org/EIPS/eip-2593))
-    - [WIP by Tim Roughgarden](https://d24n.org/tim-roughgarden-will-work-on-eip-1559/)
+    - [Blockchain Resource Pricing by Vitalik Buterin](https://github.com/ethereum/research/blob/master/papers/pricing/ethpricing.pdf) 
+- [x] Comparison of EIP-1559 with alternatives (e.g. [Escalator Fees](https://eips.ethereum.org/EIPS/eip-2593))
+    - ["Transaction Fee Mechanism Design for the Ethereum Blockchain:
+An Economic Analysis of EIP-1559" by Tim Roughgarden](http://timroughgarden.org/papers/eip1559.pdf)
     - [Analysis by Deribit](https://insights.deribit.com/market-research/analysis-of-eip-2593-escalator/)
     - ["Floating escalator" simulation](https://github.com/barnabemonnot/abm1559/blob/master/notebooks/floatingEscalator.ipynb) to model using the [escalator fees](https://eips.ethereum.org/EIPS/eip-2593) approach to the EIP-1559 tip parameter.
 
@@ -89,7 +93,7 @@ Tasks that are normally part of the "AllCoreDevs process" are not listed. In oth
 - [X] [Stationary Users](https://nbviewer.jupyter.org/github/barnabemonnot/abm1559/blob/master/notebooks/stationary1559.ipynb)
 - [X] [Strategic Users](https://nbviewer.jupyter.org/github/barnabemonnot/abm1559/blob/master/notebooks/strategicUser.ipynb) 
 - [X] ["Floating escalator" simulation](https://github.com/barnabemonnot/abm1559/blob/master/notebooks/floatingEscalator.ipynb) to model using the [escalator fees](https://eips.ethereum.org/EIPS/eip-2593) approach to the EIP-1559 tip parameter
-- [ ] Legacy transaction simulations to model the transition period and the "tax" of interpreting legacy transactions as 1559-style transactions
+- [X] [Legacy transaction simulations](https://github.com/NethermindEth/research/blob/main/legacyTransactions.ipynb)
 - [ ] "UX improvement" simulations to model what agents learn to do over time when submitting 1559-style transaction and what the impact is on them 
 - [ ] "Wallet defaults" simulations to model what defaults wallet should propose and when to shift them
 
