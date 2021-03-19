@@ -36,6 +36,7 @@ Anyone is welcome to add an item to the agenda as long as it follows these guide
         4.  EIP-3403 - Partial Removal of Refunds [#277](https://github.com/ethereum/pm/issues/277) 
      1. EIP-3198 - `BASE FEE` Opcode [#270](https://github.com/ethereum/pm/issues/270)
      1. EIP-3368 -  Increase block rewards to 3 ETH, with 2 Year Decay to 1 ETH Scheduled [#273](https://github.com/ethereum/pm/issues/273)
+     1. EIP-3382 - Hardcoded Block Gas Limit [#281](https://github.com/ethereum/pm/issues/281)
   1. Network Upgrade Timing & Scope
      1. London [#245](https://github.com/ethereum/pm/issues/245)
         - Should we include anything beyond the current list? 
@@ -215,7 +216,7 @@ The meetings are independent of any organization. However, Hudson Jameson and Ti
 
   <summary>  ACD 107: March 5, 2021 </summary> 
 
-  #### Meeting Info
+  #### ACD 107 Meeting Info
   * [March 5, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/mar-5-2021/2pm)
   * Duration: 90 minutes
   * Youtube Stream: https://youtu.be/xWfR-WxjmYg
